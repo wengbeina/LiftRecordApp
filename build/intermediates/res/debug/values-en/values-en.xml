@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/aqi/Lift/LiftRecordApp/res/values-en/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="address">Address</string>
+    <string name="app_name">Elevator safety operation and early warning system</string>
+    <string name="checkbtn">Check</string>
+    <string name="current">Current Page</string>
+    <string name="date">Date</string>
+    <string name="findpwdtext">Forget password？</string>
+    <string name="from">Start Time:</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="history">History</string>
+    <string name="idremind">ID (no more than 10)</string>
+    <string name="limit">Set the acceleration alert:</string>
+    <string name="list">List</string>
+    <string name="localoff">LocalOff</string>
+    <string name="localon">LocalOn</string>
+    <string name="logintext">Login</string>
+    <string name="map">Map</string>
+    <string name="nameremind">Name</string>
+    <string name="pwdremind">Password</string>
+    <string name="registertext">Register</string>
+    <string name="resettext">Reset</string>
+    <string name="select">Query</string>
+    <string name="serveroff">ServerOff</string>
+    <string name="serveron">ServerOn</string>
+    <string name="setting">Setting</string>
+    <string name="show">Show</string>
+    <string name="suretext">Ok</string>
+    <string name="switchLanguage">SWitch Language</string>
+    <string name="time">Time</string>
+    <string name="title_activity_show">ShowActivity</string>
+    <string name="to">End Time：</string>
+    <string name="total">Total Number:</string>
+    <string name="welcome">Welcome to use this system</string>
+    <string name="xlimit">x-axis</string>
+    <string name="xlimitnum">1.5</string>
+    <string name="ylimit">y-axis</string>
+    <string name="ylimitnum">1.5</string>
+    <string name="zlimit">z-axis</string>
+    <string name="zlimitnum">2.5</string>
+</resources>

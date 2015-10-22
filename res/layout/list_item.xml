@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+    <TextView android:id="@+id/liftid"
+        android:layout_gravity="center_vertical"
+        android:paddingTop="18dip"
+        android:layout_height="wrap_content"
+        android:layout_width="120dip"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView android:id="@+id/line1"
+        android:layout_height="62dip"
+        android:layout_width="1dip"
+        android:background="@android:color/black"
+        android:layout_toRightOf="@+id/liftid"
+        />
+    
+    <TextView android:id="@+id/accx"
+        android:layout_height="wrap_content"
+        android:layout_width="80dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="15dip"
+        android:textColor="@android:color/black"
+        android:layout_toRightOf="@+id/line1"
+        android:textSize="15sp"      
+        />
+    
+    <TextView android:id="@+id/line2"
+        android:layout_height="62dip"
+        android:layout_width="1dip"
+        android:background="@android:color/black"
+        android:layout_toRightOf="@+id/accx"
+        />
+    <TextView android:id="@+id/accy"
+        android:layout_height="wrap_content"
+        android:layout_width="80dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="15dip"
+        android:textColor="@android:color/black"
+        android:layout_toRightOf="@+id/line2"
+        android:textSize="15sp"      
+        />
+    <TextView android:id="@+id/line3"
+        android:layout_height="62dip"
+        android:layout_width="1dip"
+        android:background="@android:color/black"
+        android:layout_toRightOf="@+id/accy"
+        />
+    <TextView android:id="@+id/accz"
+        android:layout_height="wrap_content"
+        android:layout_width="80dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="15dip"
+        android:textColor="@android:color/black"
+        android:layout_toRightOf="@+id/line3"
+        android:textSize="15sp"      
+        />
+    <TextView android:id="@+id/line4"
+        android:layout_height="62dip"
+        android:layout_width="1dip"
+        android:background="@android:color/black"
+        android:layout_toRightOf="@+id/accz"
+        />    
+   <TextView android:id="@+id/recordtime"
+        android:layout_height="wrap_content"
+        android:layout_width="250dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="15dip"
+        android:textColor="@android:color/black"
+        android:layout_toRightOf="@+id/line4"
+        android:textSize="15sp"      
+        />   
+
+</RelativeLayout>

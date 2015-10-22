@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/aqi/Lift/LiftRecordApp/assets"><file name="serverip/server.properties" path="/Users/aqi/Lift/LiftRecordApp/assets/serverip/server.properties"/></source></dataSet><dataSet config="debug"><source path="/Users/aqi/Lift/LiftRecordApp/build-types/debug/assets"/></dataSet></merger>
