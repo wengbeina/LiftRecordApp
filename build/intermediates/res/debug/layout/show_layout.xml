@@ -26,6 +26,21 @@
                 >
 
                 <LinearLayout
+                    android:id="@+id/layout_3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/alert"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/alert"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="180dp" />
+                </LinearLayout>
+
+                <LinearLayout
                     android:id="@+id/layout_0"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
@@ -204,20 +219,6 @@
                 </LinearLayout>
 
                 <!-- Second Tab Set -->
-
-                <LinearLayout
-                    android:id="@+id/layout_3"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:orientation="vertical">
-
-                    <!-- <TextView
-                        android:id="@+id/textView3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Tab3"
-                        android:textSize="30dip" />-->
-                </LinearLayout>
 
             </FrameLayout>
 

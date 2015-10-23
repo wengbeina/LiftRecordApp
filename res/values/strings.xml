@@ -40,5 +40,6 @@
     <string name="ylimitnum">1.5</string>
     <string name="zlimitnum">2.5</string>
     <string name="switchLanguage">切换语言</string>
-
+    <string name="code">授权码</string>
+    <string name="alert">电梯故障，发送警报信息</string>
 </resources>

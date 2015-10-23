@@ -44,6 +44,7 @@ import java.util.Map;
 
 import cn.edu.zucc.TPF.Bean.AccCheckValue;
 import cn.edu.zucc.TPF.Bean.AccRecordBean;
+import cn.edu.zucc.TPF.Bean.LiftDataBean;
 import cn.edu.zucc.TPF.Bean.UserBean;
 import cn.edu.zucc.TPF.SQLiteDB.LiftDataDAO;
 import cn.edu.zucc.TPF.liftdatarecordactivity.R;
@@ -100,6 +101,7 @@ public class ShowActivity extends Activity implements OnTabChangeListener,
     private ImageButton preBtn;
     private ImageButton nextBtn;
     private Button checkBtn;
+    private Button alertBtn;
 
     private ToggleButton slipSave;
     private ToggleButton slipTransport;
@@ -214,7 +216,21 @@ public class ShowActivity extends Activity implements OnTabChangeListener,
         Thread transport = new Thread(new LiftDataConveyHandle(ShowActivity.this, user.getId(), accBean, accCheck));
         transport.start();
 
+        alertBtn = (Button) findViewById(R.id.alert);
+        alertBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                LiftDataBean liftData = new LiftDataBean();
+                liftData.setAccx(999);
+                liftData.setLiftid(user.getId());
+                liftData.setRecordtime(new Timestamp(System.currentTimeMillis()));
+                new AlertDeal(ShowActivity.this,liftData).alert();
+            }
+        });
+
     }
+
+
 
     /**
      * 切换查询结果显示形式的监听事件代码

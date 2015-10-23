@@ -165,8 +165,10 @@
     <!-- From: file:/Users/aqi/Lift/LiftRecordApp/res/values/strings.xml -->
     <eat-comment/>
     <string name="address">地址</string>
+    <string name="alert">电梯故障，发送警报信息</string>
     <string name="app_name">电梯安全运行预警系统</string>
     <string name="checkbtn">数据校正</string>
+    <string name="code">授权码</string>
     <string name="current">当前页</string>
     <string name="date">年月日</string>
     <!-- From: file:/Users/aqi/Lift/LiftRecordApp/res/values/strings_activity_main.xml -->
